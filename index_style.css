@@ -28,20 +28,19 @@ header h1 {
     font-size: 3em;
 }
 
-#annot {
-    margin-right: 20%;
-}
-
 header {
     margin-bottom: 20px;
 }
 
-div, video {
+div {
     width: 45%;
     text-align: center;
     margin-right: 20px;
     float: left;
-    clear: both;
+}
+
+video {
+    width: 100%;
 }
 
 div h2:first-of-type {
@@ -56,16 +55,15 @@ img {
     width: 30%;
 }
 
-nav {
-    position: absolute;
-    top: 70px; right: 5%;
-}
-
 nav li {
     text-align: right;
     list-style-type: none;
     margin: 5px 0;
     font-size: 1.5em;
+}
+
+nav {
+    float: right;
 }
 
 a {
