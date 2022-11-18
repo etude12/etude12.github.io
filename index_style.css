@@ -1,0 +1,97 @@
+@font-face {
+    font-family: cool;
+    src: url('s.ttf');
+}
+
+body { 
+    margin: 5px 5%;
+    background-color: #3a005c;
+    background-image: linear-gradient(#80c1ff, #3a005c);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: cool;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+header h1 {
+    padding: 0;
+    margin: 0;
+    border-bottom: 3px solid black;
+    text-align: center;
+    font-size: 3em;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+div, video {
+    width: 45%;
+    text-align: center;
+    margin-right: 20px;
+    float: left;
+    clear: both;
+}
+
+div h2:first-of-type {
+    margin-top: 0;
+}
+
+img {
+    width: 94%;
+}
+
+.small {
+    width: 30%;
+}
+
+nav {
+    position: absolute;
+    top: 70px; right: 5%;
+}
+
+nav li {
+    text-align: right;
+    list-style-type: none;
+    margin: 5px 0;
+    font-size: 1.5em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav li:hover {
+    font-weight: bold;
+}
+
+table td, table th {
+    width: 30%;
+    text-align: center;
+    font-size: 2em;
+    border: 1px solid white;
+}
+
+table {
+    width: 80%;
+}
+
+table p, table a {
+    color: white;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+table img {
+    width: 200px;
+    padding: 10px;
+}
+
+#facts { color: white; }
+#facts li { margin: 10px 40px; }
